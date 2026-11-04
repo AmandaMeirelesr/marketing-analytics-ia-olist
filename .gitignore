@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+venv/
+.venv/
+__pycache__/
+chroma_db_marketing/
+olist_order_reviews_dataset.csv
+olist_order_items_dataset.csv
+olist_products_dataset.csv
+*.ipynb
+.Gitignore
+EOF
